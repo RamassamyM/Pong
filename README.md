@@ -14,18 +14,39 @@ $ gem install gosu
 ## Structure
 ```
 .
-pong/
-├── lib/
+├── lib
 │   ├── ball.rb
 │   ├── game.rb
 │   ├── player.rb
 │   ├── song.rb
 │   └── ui.rb
-└── media/
+└── media
+    ├── b1.png
+    ├── b3.png
+    ├── b5.png
+    ├── beep2.wav
+    ├── charles.png
+    ├── fin.mp3
+    ├── lewagon.png
+    ├── muz.mp3
+    ├── p1.jpg
+    ├── p2.jpg
+    ├── p3.jpg
+    ├── redpad.png
+    ├── t1.png
+    ├── y1.png
+    ├── y3.png
+    └── y4.png
 ```
 
 In `lib/` you will find :
-`game.rb`which is the file to launch to start the game : in the terminal go in the in type in your terminal 
+`game.rb`which is the file to launch to start the game : in the terminal, go in the pong directory and type in your terminal
+`ruby lib/game.rb `
+ 
+ Files ball.rb, player.rb, song.rb  relates to operating ball, player and music; ui.rb makes the scores and ending messages.
+ In the media directory, you'll find backgrounds, sounds, player and ball images.Fell free to customize your Pong.
+ 
+ Would be great to put all messages in ui even for the beginning and add levels with speed in balls. Why not add special capsules adding 3 balls...
 
 
 # Further
