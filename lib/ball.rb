@@ -45,7 +45,7 @@ class Ball
   end
 
   def accelerate
-    @vel += 0.003
+    @vel += 0.005
     @vel_rot += 0.001
   end
 
